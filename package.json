@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "api-alunos",
+  "version": "1.0.0",
+  "description": "API utilizando nodeJs, express e banco de dados MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderlime92/tec-api.git"
+  },
+  "author": "\"Anderson\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderlime92/tec-api/issues"
+  },
+  "homepage": "https://github.com/anderlime92/tec-api#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
