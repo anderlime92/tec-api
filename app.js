@@ -18,8 +18,8 @@ app.use(cors());
 /* ROTAS */
 // Configurando rota para o início da aplicação
 app.get('/', function(req, res) {
-    res.send('API de alunos com nodeJS, express e MySQL');
-});
+   /* res.send('API de alunos com nodeJS, express e MySQL'); */
+   res.redirect('https://documenter.getpostman.com/view/59142977/2sBYHVuyfS')});
 
 app.get('/sobre', (req, res) => {
     res.send('SObrE');
